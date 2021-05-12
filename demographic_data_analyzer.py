@@ -1,7 +1,5 @@
 import pandas as pd
 
-# This file 
-
 def calculate_demographic_data(print_data=True):
     # Read data from file
     df = pd.read_csv("adult.data.csv")
